@@ -1,0 +1,39 @@
+package DsaSession.DAY4;
+
+import java.util.Scanner;
+
+public class Calculator {
+    public static void main(String[] args) {
+        int a, b, c, ch;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the vslue of a =");
+        a = sc.nextInt();
+        System.out.println("Enter the vslue of b =");
+        b = sc.nextInt();
+        System.out.println("Enter the operator for result =");
+        ch = sc.next().charAt(0);
+        switch(ch){
+            case '+':
+            c = a + b;
+            System.out.println(a+"+"+b+"="+c);
+            break;
+            case '-':
+            c = a - b;
+            System.out.println(a+"-"+b+"="+c);
+            break;
+            case '*':
+            c = a * b;
+            System.out.println(a+"*"+b+"="+c);
+            break;
+            case '/':
+            c = a / b;
+            System.out.println(a+"/"+b+"="+c);
+            break;
+            default:
+            System.out.println("INVALID OPERATOR");
+            break;
+        }
+        sc.close();
+    }
+    
+}
