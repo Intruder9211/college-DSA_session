@@ -1,3 +1,4 @@
+//without function
 import java.util.Scanner;
 
 public class SalaryCalculator {
