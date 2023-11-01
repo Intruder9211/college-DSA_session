@@ -33,7 +33,7 @@
 		if person age is 25 to 45 and gender is female and city is non-metro , output is Premium 2%
 		else
  		Not Insured
-    12. WAP to print the Days of week and months of the year.
+    12. WAP to print the Days of week and months of the year.✅
     13. WAP to check whether the entered character is vowel or not.
     14. WAP to create a menu driven program ✅
 	Press 1 for Addition
